@@ -9,7 +9,7 @@ OS EXEMPLOS NÃO SERÃO POSSÍVEIS DE VER NA PREVIEW.
 
 ## Heading elements
 
-heading element - <h1>Hello World</h1>
+heading element - <h1> Hello World </h1>
 o hello world é o conteúdo, basicamente diz que nós queremos criar um cabeçalho (heading) que contém as palavras "Hello World"
 tag - dentro dos <>, o <h1> é a tag de abertura e o </h1> é a tag de fechamento.
 elemento - <h1> Hello World </h1>, tanto as tags quanto o conteúdo.
@@ -88,3 +88,15 @@ Exemplo: https://picsum.photos/200
 
 Podemos adicionar também um texto alternativo para a imagem, é bom para pessoas com problemas visuais pois ajuda a descrever a imagem de forma auditiva:
 <img src="url da imagem" alt ="forest at sunset"/>
+
+DIRECIONANDO IMAGENS DE UMA PASTA ESPECÍFICA
+- Se estiver na pasta anterior basta colocar ../imagem.png (sobe um nível)
+- Se estiver na mesma pasta basta colocar ./imagem.png (se mantém no mesmo nível)
+
+## Criação de diversas páginas web e como conectá-las
+
+index.html = página principal
+Podemos criar também um about.html; contact.html que estarão no mesmo folder(pasta) criando um website de várias páginas. DEVEMOS USAR LINKS PARA REDIRECIONAR O USUÁRIO.
+<a href="./about.html">About page</a>
+
+IMG USA SRC E A USA HREF
